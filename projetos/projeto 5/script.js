@@ -1,0 +1,1 @@
+document.querySelectorAll(".card").forEach(function(c){c.addEventListener("click",function(){document.getElementById("infoPrincipio").textContent=c.dataset.info;});});

@@ -1,0 +1,1 @@
+document.querySelectorAll(".passo").forEach(function(e){e.addEventListener("click",function(){document.getElementById("infoCiclo").textContent=e.dataset.info;});});
